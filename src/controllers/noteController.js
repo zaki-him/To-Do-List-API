@@ -55,7 +55,7 @@ export const updateNote = async (req , res) => {
     },)
 
     if(!updatedNote){
-      return res.status(404).json({message:'Note Not Found'})
+      return res.status(404).json({message:'Note Not Found'});
     }
 
     if(title) updatedNote.title = title
