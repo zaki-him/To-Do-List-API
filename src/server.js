@@ -6,6 +6,7 @@ import authRouter from "./routers/authRoutes.js";
 import protectedRouter from "./routers/protectedRoutes.js";
 import noteRouter from "./routers/notesRoutes.js";
 
+
 dotenv.config();
 
 const server = express();
