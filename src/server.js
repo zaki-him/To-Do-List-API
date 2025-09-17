@@ -9,6 +9,7 @@ import noteRouter from "./routers/notesRoutes.js";
 
 dotenv.config();
 
+
 const server = express();
 const port = process.env.PORT
 
